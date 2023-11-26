@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Nav-container {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(122, 121, 121);
+    position: fixed;
+    z-index: 9999;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo span {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+#cmplogo {
+    color: white;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        color: rgb(243, 106, 8);
+        color: rgb(114, 8, 8);
+        color: rgb(8, 230, 100);
+    }
+    to {
+        color: rgb(115, 4, 219);
+        color: rgb(11, 11, 211);
+        color: rgb(224, 7, 7);
+    }
+}
+
+.list {
+    color: rgb(8, 6, 6);
+    display: flex;
+    list-style: none;
+    margin-left: 350px;
+    gap: 30px;
+}
+
+.list-ele {
+    font-size: 25px;
+    font-weight: 530;
+    cursor: pointer;
+}
+
+.list-ele:hover {
+    color: brown;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 530;
+    cursor: pointer;
+    color: rgb(8, 6, 6);
+}
+
+a:link:hover {
+    color: brown;
+}
